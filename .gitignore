@@ -1,0 +1,100 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+*.py[cod]
+__pycache__
+
+# .ipynb Checkpoints
+.ipynb_checkpoints
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+.eggs
+parts
+bin
+var
+sdist
+wheelhouse
+develop-eggs
+.installed.cfg
+lib
+lib64
+venv*/
+pyvenv*/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+nosetests.xml
+htmlcov
+
+# Translations
+*.mo
+
+# Buildout
+.mr.developer.cfg
+
+# IDE project files
+.project
+.pydevproject
+.idea
+.vscode
+*.iml
+*.komodoproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+.DS_Store
+*~
+.*.sw[po]
+.build
+.ve
+.env
+.cache
+.pytest
+.benchmarks
+.bootstrap
+*.bak
+
+# Mypy Cache
+.mypy_cache/
+
+# emacs
+*~
+
+# compiled
+*.pyc
+
+# IntelliJ
+.idea
+*.iml
+
+# data
+data
+
+# notebook
+notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
+
+# DS_Store
+.DS_Store
+
+# VScode
+.vscode
+
+__pycache__/

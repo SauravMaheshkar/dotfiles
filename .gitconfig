@@ -1,0 +1,15 @@
+[user]
+	name = SauravMaheshkar
+	email = 61241031+SauravMaheshkar@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[pack]
+	windowMemory = 1048576000
+[http]
+	postBuffer = 157286400
+	version = HTTP/2
+[core]
+	editor = code --wait
