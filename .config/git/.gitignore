@@ -1,0 +1,34 @@
+# darwin
+**/.DS_Store
+
+# C/C++
+*.o
+*.out
+build/
+compile_flags.txt
+
+# Python
+**/__pycache__/
+**/*.ipynb_checkpoints
+**/*.egg-info
+*.pyc
+.python-version
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv
+.venv
+artifacts
+wandb
+
+# still haven't made up my mind yet
+uv.lock
+
+# Rust
+doc/
+target/
+
+# misc
+**/.idea/
+.env

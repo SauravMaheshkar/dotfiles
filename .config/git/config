@@ -1,0 +1,20 @@
+[user]
+	signingkey = /Users/sauravmaheshkar/.ssh/id_ed25519.pub
+	name = Saurav Maheshkar
+	email = sauravvmaheshkar@gmail.com
+[commit]
+	gpgsign = true
+[core]
+	excludesFile = ~/.config/git/.gitignore
+[gpg]
+	program = /opt/homebrew/bin/gpg
+	format = ssh
+[push]
+	autoSetupRemote = true
+[alias]
+	s = status
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
