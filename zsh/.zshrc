@@ -1,4 +1,5 @@
 # set aliases
+alias .. = "cd .."
 alias c="clear"
 alias ls="ls -Alh --color=auto"
 alias fetch="fastfetch"
@@ -30,12 +31,6 @@ nvim-clean() {
          ~/.local/share/nvim/mason \
          ~/.local/state/nvim/lazy
 }
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sauravmaheshkar/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sauravmaheshkar/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/sauravmaheshkar/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sauravmaheshkar/google-cloud-sdk/completion.zsh.inc'; fi
 
 # bun completions
 [ -s "/Users/sauravmaheshkar/.bun/_bun" ] && source "/Users/sauravmaheshkar/.bun/_bun"
