@@ -21,6 +21,15 @@ source <(fzf --zsh)
 # source zoxide
 eval "$(zoxide init zsh --cmd cd)"
 
+# helper scripts
+nvim-clean() {
+  rm -rf ~/.local/share/nvim/lazy/mason.nvim \
+         ~/.local/share/nvim/lazy/mason-lspconfig.nvim \
+         ~/.local/share/nvim/lazy/lazy.nvim \
+         ~/.local/share/nvim/mason \
+         ~/.local/state/nvim/lazy
+}
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/sauravmaheshkar/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sauravmaheshkar/google-cloud-sdk/path.zsh.inc'; fi
 
