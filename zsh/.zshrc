@@ -1,6 +1,7 @@
 # set aliases
 alias c="clear"
 alias ls="ls -Alh --color=auto"
+alias fetch="fastfetch"
 
 # set homebrew path
 export PATH="/opt/homebrew/bin:$PATH"
@@ -35,3 +36,10 @@ if [ -f '/Users/sauravmaheshkar/google-cloud-sdk/path.zsh.inc' ]; then . '/Users
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sauravmaheshkar/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sauravmaheshkar/google-cloud-sdk/completion.zsh.inc'; fi
+
+# bun completions
+[ -s "/Users/sauravmaheshkar/.bun/_bun" ] && source "/Users/sauravmaheshkar/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
