@@ -1,3 +1,15 @@
 theme = Catppuccin Mocha
+
+shell-integration = zsh
+
+# always ghostty as the title
+title = ghostty 
+
+# font family
 font-family = "Hack Nerd Font Mono"
+
+# no distractions
 mouse-hide-while-typing = true
+
+# macos options
+macos-titlebar-proxy-icon = hidden
