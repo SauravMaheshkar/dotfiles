@@ -1,1 +1,1 @@
-vim.g.colorscheme = "catppuccin"
+vim.opt.spell = false
