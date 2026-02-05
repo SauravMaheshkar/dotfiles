@@ -1,0 +1,6 @@
+{
+  "name": "opencode-local-plugins",
+  "dependencies": {
+    "@opencode-ai/plugin": "^0.1.0"
+  }
+}
