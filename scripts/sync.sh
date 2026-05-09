@@ -8,6 +8,7 @@ DOTFILES_DIR="$(dirname "$SCRIPT_DIR")"
 run_stow() {
   stow -d "$DOTFILES_DIR/.config" -t ~/.config .
   stow -d "$DOTFILES_DIR/zsh" -t ~ . --ignore=setup.sh --ignore=update.sh
+  stow -d "$DOTFILES_DIR/.agents" -t ~/.agents .
   echo "Dotfiles synced successfully!"
 }
 
