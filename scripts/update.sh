@@ -3,4 +3,4 @@ brew upgrade && brew cleanup
 uv self update
 rustup update
 bun upgrade
-opencode upgrade
+bunx skills update -g
