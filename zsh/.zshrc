@@ -1,5 +1,5 @@
 # set aliases
-alias .. = "cd .."
+alias ..="cd .."
 alias c="clear"
 alias ls="ls -Alh --color=auto"
 alias fetch="fastfetch"
@@ -33,8 +33,11 @@ nvim-clean() {
 }
 
 # bun completions
-[ -s "/Users/sauravmaheshkar/.bun/_bun" ] && source "/Users/sauravmaheshkar/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# hf-cli
+export PATH="$HOME/.local/bin:$PATH"
